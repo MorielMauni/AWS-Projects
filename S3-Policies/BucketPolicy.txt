@@ -12,9 +12,8 @@
       "Principal": "*",
       "Action": "s3:DeleteObject",
       "Resource": [
-        "arn:aws:s3:::<bucket-name>/index.html",
-        "arn:aws:s3:::<bucket-name>/script.js",
-        "arn:aws:s3:::<bucket-name>/style.css"
+        "arn:aws:s3:::<bucket-name>/<file_name.file>",
+        "arn:aws:s3:::<bucket-name>/<file_name.file>",
         ]
     }
   ]
